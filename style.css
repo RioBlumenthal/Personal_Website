@@ -1,14 +1,45 @@
-h1 {
-   color: rgb(42, 129, 34);
-}
 body {
-   background-color: lightblue;
+   background-color: rgb(0, 109, 119);
    font-family: Helvetica, Arial, sans-serif;
+   margin: 0;
+   padding: 0;
 }
-button {
-   background-color: rgb(154, 241, 147);
-   padding: 10px 20px;
-   border: 2px solid rgb(42, 129, 34);
+
+section.sidebar {
+   background-color: rgb(131, 197, 190);
+   width: 20%;
+   height: 100%;
+   position: fixed;
+   overflow: auto;
+}
+
+section.content {
+   margin-left: 21%; /* Adjust to ensure the content is not hidden behind the sidebar */
+   padding: 20px;
+   background-color: rgb(131, 197, 190);
    border-radius: 5px;
-   cursor: pointer;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   background-color: rgb(131, 197, 190);
+}
+
+li a {
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: rgb(255, 221, 210);
+}
+
+.active {
+   background-color: #04AA6D;
+   color: white;
 }
