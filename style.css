@@ -1,0 +1,14 @@
+h1 {
+   color: rgb(42, 129, 34);
+}
+body {
+   background-color: lightblue;
+   font-family: Helvetica, Arial, sans-serif;
+}
+button {
+   background-color: rgb(154, 241, 147);
+   padding: 10px 20px;
+   border: 2px solid rgb(42, 129, 34);
+   border-radius: 5px;
+   cursor: pointer;
+}
