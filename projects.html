@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Rio's Website</title>
+      <title>Rio's Projects</title>
       <link rel="stylesheet" href="style.css">
 
       <!-- icon library -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   </head> 
+   </head>
    <body>
       <!-- The sidebar -->
       <section class="sidebar">
          <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
          </ul>
 
          <!-- Add font awesome icons -->
@@ -23,11 +23,18 @@
             <a href="https://github.com/YargleWithWings" target="_blank" class="fa fa-github"></a>
          </div>
       </section>
-      
+
       <!-- Page content -->
       <section class="content">
-         <center><h1>Rio's Website</h1></center>
-         <p>Hi! I'm an aspiring developer going for my BS/MS in Computer Science with a minor in mathematics, and this is my personal showcase site!</p>
+         <h1>My Projects</h1>
+         <div class="projects">
+            <div class="project">
+               <h3>Project 1: Arduino Connect 4</h3>
+               <div class="video-container">
+                  <iframe class="rotated-video" width="560" height="315" src="https://www.youtube.com/embed/GC4mt7rIG38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
       </section>
    </body>
 </html>
