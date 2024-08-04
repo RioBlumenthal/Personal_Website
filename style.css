@@ -93,3 +93,18 @@ section.content {
    background-color: rgb(131, 197, 190);
    border-radius: 5px;
 }
+
+.sideBySide {
+   display: flex;
+   justify-content: space-around; /* Distribute space between and around the flex items */
+   padding: 20px;
+   background-color: rgb(131, 197, 190);
+   border-radius: 5px;
+}
+
+.languages, .courses, .skills {
+   flex: 1; /* Grow items to fill available space */
+   flex-direction: column;
+   margin: 0px;
+   padding: 0px;
+}
