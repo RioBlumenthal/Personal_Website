@@ -42,13 +42,30 @@
             </div>
             <div class="project">
                <h3>Project 3: <a href="https://github.com/YargleWithWings/Wordle" target="_blank">Wordle Unlimited</a></h3>
-               <img src="wordle.png" alt="Screenshot of Wordle Game">
+               <img src="wordle.png" alt="Screenshot of Wordle Game" class="project-image" onclick="openLightbox(this)">
+            </div>
+            <div id="lightbox" class="lightbox">
+               <span class="close" onclick="closeLightbox()">&times;</span>
+               <img class="lightbox-content" id="lightbox-img">
             </div>
             <div class="project">
                <h3>Project 4: Automated Emails</h3>
-               <img src="email.png" alt="Screenshot of Automated Email Program">
+               <img src="email.png" alt="Screenshot of Automated Email Program" class="project-image" onclick="openLightbox(this)">
+            </div>
+            <div id="lightbox" class="lightbox">
+               <span class="close" onclick="closeLightbox()">&times;</span>
+               <img class="lightbox-content" id="lightbox-img">
+            </div>
+            <div class="project">
+               <h3>Project 5: Scouting for FRC</h3>
+               <img src="scouting.png" alt="Screenshot of Google Sheets Scouting Program" class="project-image" onclick="openLightbox(this)">
+            </div>
+            <div id="lightbox" class="lightbox">
+               <span class="close" onclick="closeLightbox()">&times;</span>
+               <img class="lightbox-content" id="lightbox-img">
             </div>
          </div>
       </section>
+      <script src="script.js"></script>
    </body>
 </html>
