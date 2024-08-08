@@ -131,7 +131,9 @@ img {
 .lightbox-content {
    margin: auto;
    display: block;
-   width: 70%;
+   width: auto;
+   height: auto;
+   max-width: 80%;
 }
 
 /* Close button */
