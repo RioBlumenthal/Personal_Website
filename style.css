@@ -15,8 +15,10 @@ section.sidebar {
    z-index: 1;
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: center; /* Center the content */
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 0 20px; /* Add padding to ensure logos don't go offscreen */
+   box-sizing: border-box;
 }
 
 ul {
@@ -53,7 +55,7 @@ li a:hover {
    align-items: center;
    gap: 10px;
    position: absolute;
-   right: 20px;
+   right: 20px; /* Keep the logos close to the right edge */
 }
 
 .fa {
@@ -82,8 +84,8 @@ li a:hover {
 }
 
 .fa-github {
-  background: rgb(64, 120, 192);
-  color: white;
+   background: rgb(64, 120, 192);
+   color: white;
 }
 
 section.content {
@@ -111,7 +113,29 @@ section.content {
 img {
    border-radius: 10px;
    width: 20%;
- }
+}
+
+/* Media query to adjust for smaller screens */
+@media (max-width: 768px) {
+   ul {
+      gap: 10px; /* Reduce gap between menu items */
+   }
+
+   li a {
+      padding: 10px 15px; /* Reduce padding for menu items */
+      font-size: 14px; /* Reduce font size */
+   }
+
+   .icon-container {
+      gap: 5px; /* Reduce gap between icons */
+   }
+
+   .fa {
+      padding: 5px;
+      font-size: 16px; /* Reduce icon size */
+   }
+}
+
 
  /* Lightbox */
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
