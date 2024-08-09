@@ -112,7 +112,8 @@ section.content {
 
 img {
    border-radius: 10px;
-   width: 20%;
+   width: 60%;
+   max-width: 400px;
 }
 
 /* Media query to adjust for smaller screens */
