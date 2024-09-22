@@ -196,3 +196,21 @@ img {
    from {transform: scale(0)} 
    to {transform: scale(1)}
 }
+
+/* Button style */
+.button {
+   display: inline-block;
+   background-color: rgb(255, 221, 210); /* Use the hover color from your other links */
+   color: #000; /* Text color */
+   padding: 15px 20px; /* Padding for the button */
+   text-decoration: none; /* Remove underline */
+   font-weight: bold; /* Bold text */
+   border-radius: 5px; /* Rounded corners */
+   transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+   margin-top: 10px;
+}
+
+.button:hover {
+   background-color: rgb(226, 149, 120); /* Change background color on hover */
+   color: #000; /* Ensure the text color stays the same */
+}
